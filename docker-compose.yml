@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  codewars.containermvc:
+    image: codewars.containermvc
+    build:
+      context: .
+      dockerfile: CodeWars.ContainerMvc/Dockerfile
