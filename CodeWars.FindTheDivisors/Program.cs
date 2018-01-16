@@ -8,11 +8,11 @@ namespace CodeWars.FindTheDivisors
     {
         static void Main(string[] args)
         {
-          var result =  Kata.Divisors(12);
+            var result = Kata.Divisors(12);
         }
     }
 
-    
+
 
     public class Kata
     {
@@ -25,7 +25,5 @@ namespace CodeWars.FindTheDivisors
             l.AddRange(k);
             return l.ToArray();
         }
-    }    
-    }    
-
+    }
 }

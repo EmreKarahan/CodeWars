@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Find The Divisors", "Find T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.FindTheDivisors", "CodeWars.FindTheDivisors\CodeWars.FindTheDivisors.csproj", "{23276206-0740-473B-BD68-FFE2AA759B75}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Count The Digit", "Count The Digit", "{B65F8478-E7A8-4C9C-9553-0004F58AEDDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.CountTheDigit", "CodeWars.CountTheDigit\CodeWars.CountTheDigit.csproj", "{806ACD02-235E-4E97-9756-EE43EF696095}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,10 @@ Global
 		{23276206-0740-473B-BD68-FFE2AA759B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23276206-0740-473B-BD68-FFE2AA759B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23276206-0740-473B-BD68-FFE2AA759B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806ACD02-235E-4E97-9756-EE43EF696095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806ACD02-235E-4E97-9756-EE43EF696095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806ACD02-235E-4E97-9756-EE43EF696095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806ACD02-235E-4E97-9756-EE43EF696095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,7 @@ Global
 		{31D1A8DD-192E-427D-9E64-D9858C437D24} = {DDBF0B18-63C3-4D02-BAB4-7824D2235463}
 		{73567D1C-12C6-4615-AFCB-BB9BC3B52020} = {89CBAF6B-BF58-4E43-898C-E66D90FEE8A0}
 		{23276206-0740-473B-BD68-FFE2AA759B75} = {09C1A856-95DF-4B61-8AA8-E81A75591875}
+		{806ACD02-235E-4E97-9756-EE43EF696095} = {B65F8478-E7A8-4C9C-9553-0004F58AEDDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4AAD4D4-D0ED-4272-9BAB-7F3B1F51F094}
