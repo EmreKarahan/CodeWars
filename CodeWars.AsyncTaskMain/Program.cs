@@ -17,11 +17,21 @@ namespace CodeWars.AsyncTaskMain
                 var model = JsonConvert.DeserializeObject<List<Product>>(response.Content.ReadAsStringAsync().Result);
                 foreach (var product in model)
                 {
-                    Console.WriteLine(product.Name + ":" + product.Price);
+                    decimal tax = 18;
+                    AddTax(tax, product.Price, out decimal result);
+                    Console.WriteLine(product.Name + ":" + result);
                 }
                 Console.ReadLine();
             }
+
+            void AddTax(in decimal tax, in decimal price, out decimal result)
+            {
+                result = price + (price * tax) / 100;
+            }
         }
+
+
+
     }
 
 
