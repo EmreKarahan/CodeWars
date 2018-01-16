@@ -6,10 +6,10 @@ namespace CodeWars.AsyncWebClient
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            var data = GetWebStringAsync();
-            Console.WriteLine(data.Result);
+            var data = await GetWebStringAsync();
+            Console.WriteLine(data);
         }
 
 
