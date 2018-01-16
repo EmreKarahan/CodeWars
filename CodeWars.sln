@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.EnoughIsEnough", "CodeWars.EnoughIsEnough\CodeWars.EnoughIsEnough.csproj", "{08625D1C-A99C-4C29-872E-CFCB913FA752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars.EnoughIsEnough", "CodeWars.EnoughIsEnough\CodeWars.EnoughIsEnough.csproj", "{08625D1C-A99C-4C29-872E-CFCB913FA752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.WhoLikesIt", "CodeWars.WhoLikesIt\CodeWars.WhoLikesIt.csproj", "{B545639C-F535-4A31-B70D-52AD6EF3943F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars.WhoLikesIt", "CodeWars.WhoLikesIt\CodeWars.WhoLikesIt.csproj", "{B545639C-F535-4A31-B70D-52AD6EF3943F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnoughIsEnough", "EnoughIsEnough", "{E3EAC30A-1477-4919-AA5F-62064D251BF6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WhoLikesIt", "WhoLikesIt", "{30273262-0203-48C4-90C2-8A8345960D34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.WhoLikesIt.Test", "CodeWars.WhoLikesIt.Test\CodeWars.WhoLikesIt.Test.csproj", "{B03C2CAB-8D1B-417B-960D-504C50832D3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars.WhoLikesIt.Test", "CodeWars.WhoLikesIt.Test\CodeWars.WhoLikesIt.Test.csproj", "{B03C2CAB-8D1B-417B-960D-504C50832D3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncTaskMain", "AsyncTaskMain", "{A4C295ED-C801-4403-9384-AE1FE347D1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.AsyncTaskMain", "CodeWars.AsyncTaskMain\CodeWars.AsyncTaskMain.csproj", "{CE94557A-C515-4821-90D4-292944566BB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System.ValueTuple", "System.ValueTuple", "{BBC04D27-172C-40C4-9B54-F94E3C4620AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars.ValueTuple", "CodeWars.ValueTuple\CodeWars.ValueTuple.csproj", "{CA4537E6-E1A4-45D1-8F76-774E69326A5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +39,14 @@ Global
 		{B03C2CAB-8D1B-417B-960D-504C50832D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B03C2CAB-8D1B-417B-960D-504C50832D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B03C2CAB-8D1B-417B-960D-504C50832D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE94557A-C515-4821-90D4-292944566BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE94557A-C515-4821-90D4-292944566BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE94557A-C515-4821-90D4-292944566BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE94557A-C515-4821-90D4-292944566BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4537E6-E1A4-45D1-8F76-774E69326A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4537E6-E1A4-45D1-8F76-774E69326A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4537E6-E1A4-45D1-8F76-774E69326A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4537E6-E1A4-45D1-8F76-774E69326A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +55,8 @@ Global
 		{08625D1C-A99C-4C29-872E-CFCB913FA752} = {E3EAC30A-1477-4919-AA5F-62064D251BF6}
 		{B545639C-F535-4A31-B70D-52AD6EF3943F} = {30273262-0203-48C4-90C2-8A8345960D34}
 		{B03C2CAB-8D1B-417B-960D-504C50832D3E} = {30273262-0203-48C4-90C2-8A8345960D34}
+		{CE94557A-C515-4821-90D4-292944566BB2} = {A4C295ED-C801-4403-9384-AE1FE347D1B4}
+		{CA4537E6-E1A4-45D1-8F76-774E69326A5D} = {BBC04D27-172C-40C4-9B54-F94E3C4620AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4AAD4D4-D0ED-4272-9BAB-7F3B1F51F094}
